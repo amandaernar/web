@@ -11,6 +11,14 @@ body {
   min-height: 100vh;
 }
 
+main {
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 header {
   display: flex;       
   align-items: center;
@@ -35,17 +43,31 @@ nav ul li {
   margin-bottom: 2rem;
 }
 
+img {
+  max-width: 40rem;
+}
+
 a {
   color: #ffffff;
   text-decoration: none;
+  font-weight: 100;
+  font-family: "Roboto Mono", monospace;
 }
 
 h2, h3, h4 {
   font-size: 2rem;
+  font-family: "Xanh Mono", monospace;
+  font-weight: 150;
 }
 
 h1 {
   font-size: 3rem;
-  letter-spacing: .6rem;
+  letter-spacing: .8rem;
   font-style: italic;
+  font-family: "Xanh Mono", monospace;
+  font-weight: 200;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
 }
